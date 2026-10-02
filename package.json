@@ -1,5 +1,5 @@
 {
-  "name": "bot-store-vercel",
+  "name": "cegado-bot-store",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,15 @@
   },
   "dependencies": {
     "next": "15.5.4",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
-    "lucide-react": "^0.468.0"
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
